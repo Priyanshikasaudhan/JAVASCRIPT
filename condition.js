@@ -42,3 +42,4 @@ switch(col){
             default:
                 console.log("Broken Light");
 }
+alert("This is a simple alert!");
