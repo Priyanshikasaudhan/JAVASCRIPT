@@ -37,4 +37,31 @@ console.log(student)
 //     null:"c",
 //     undefined:"d",
 //     true:"e"
-// };console.log(obj); 
+// };console.log(obj);
+//Random between 1 - 100
+// let ran = Math.random();
+// console.log("Print random number b/w 0 to 1");
+// console.log(ran);
+// let bet = ran*100;
+// console.log("Print random number between 0 to 100 ");
+// console.log(bet);
+// let convert = Math.floor(bet);
+// console.log("print Integer value");
+// console.log(convert);
+// let sum = convert+1;
+// console.log("Add 1 for print 100 value")
+// console.log(sum);
+// random between 1 to 5
+let ran = Math.random();
+console.log("Print random number b/w 0 to 1");
+console.log(ran);
+let bet = ran*5;
+console.log("Print random number between 0 to 5 ");
+console.log(bet);
+let convert = Math.floor(bet);
+console.log("print Integer value");
+console.log(convert);
+let sum = convert+1;
+console.log("Add 1 for print 5 value")
+console.log(sum);
+
