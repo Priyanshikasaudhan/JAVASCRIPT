@@ -1,0 +1,11 @@
+let inp = document.createElement("input");
+document.querySelector("body").append(inp);
+inp.placeholder = "Enter your name";
+let btn = document.createElement("button");
+btn.innerText="Click me!";
+btn.classList.add("blue");
+document.querySelector("body").append(btn);
+let h1= document.createElement("h1");
+h1.innerText="DOM practice";
+document.querySelector("body").append(h1);
+h1.classList.add("h1");
